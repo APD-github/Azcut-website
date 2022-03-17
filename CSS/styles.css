@@ -1,0 +1,59 @@
+:root {
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: rgb(255, 255, 255);
+  --link-color: rgb(0, 100, 0);
+  --accent-color: #808080;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+}
+/* -----  Links ---- Start ------- */
+.link {
+  font-size: 1.6rem;
+  color: var(--link-color);
+}
+@media screen and (min-width: 768px) {
+}
+/* ----- Links ---- End --------- */
+
+/* -----  Flex --start  ----- */
+.flex {
+  display: flex;
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ----- flex ---end ------- */
+
+/* ------ Grid ----- Start ------- */
+.grid {
+  display: grid;
+}
+
+.grid__2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid__3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid__4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid__5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+/* ----- Grid ---- End ----- */
+
+ugihrihreoh
