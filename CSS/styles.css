@@ -54,6 +54,120 @@ body {
 .grid__5 {
   grid-template-columns: repeat(5, 1fr);
 }
+
+@media screen and (max-width: 768px) {
+  .grid__2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid__3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid__4 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid__5 {
+    grid-template-columns: 1fr;
+  }
+  .grid {
+    gap: 1rem;
+  }
+}
 /* ----- Grid ---- End ----- */
 
-ugihrihreoh
+/* ------ Ul --- List ---- Start */
+ul {
+  list-style: none;
+}
+/* ------ Ul --- List ---- End */
+
+/* ----- Fonts --- Start --- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* ----- Fonts --- End --- */
+
+/* ----- Footer --- Section -- Start*/
+.footer-section {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.footer {
+  border-bottom: 3px solid #808080;
+  border-radius: 0.2rem;
+  padding: 2rem 3rem;
+}
+
+.footer__section-1,
+.footer__section-2,
+.footer__section-3 {
+  margin-right: 6rem;
+}
+
+.footer-section h1 {
+  font-weight: 100;
+}
+
+.footer-section h2 {
+  color: orange;
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding-bottom: 0.5rem;
+  padding-top: 2rem;
+}
+
+.footer-section ul li {
+  font-size: 1.2rem;
+  font-weight: normal;
+  padding-top: 0.5rem;
+}
+
+.footer-section h3 {
+  font-weight: normal;
+}
+
+.footer__section-4 h1 {
+  font-size: 1.2rem;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.section4-element1 input[type="email"] {
+  background-color: var(--secondary-color);
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+  outline: none;
+  display: block;
+  margin: 0 0 1rem 0;
+}
+
+.section4-element1 input[type="email"]::placeholder {
+  color: var(--primary-color);
+}
+
+.section4-element1 .button-subscribe {
+  background-color: rgb(255, 165, 0);
+  padding: 0.3rem 1.3rem;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.footer__footer {
+  padding: 2rem 5rem;
+}
+
+.footer__footer h4 {
+  text-align: right;
+}
+/* ----- Footer --- Section -- End*/
